@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LoanCalculator.Web.Persistence", "LoanCalculator.Web.Persistence", "{850C0D30-1010-4FFC-9891-DC55C3293F25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LoanCalculator.Web.Services", "LoanCalculator.Web.Services", "{1FBF471A-D72C-489E-B579-F76AD56A4974}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LoanCalculator.Web.Presentation", "LoanCalculator.Web.Presentation", "{9C56CBEC-5FCC-46E9-8450-9F5536ECEB4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LoanCalculator.Web.APi", "LoanCalculator.Web.APi", "{1505EA86-A36F-44F7-8824-C04E76D17C73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{746B3B13-C999-4385-9651-EC26C496F282}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\NCTEK\LoanCalcService\LoanCalcService\code\Business\ActualPaymentAllocation.cs = ..\..\..\Desktop\NCTEK\LoanCalcService\LoanCalcService\code\Business\ActualPaymentAllocation.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PeriodBusiness", "PeriodBusiness", "{6CE14EF9-A2DF-479E-9A58-47B13EAA3FF9}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\NCTEK\LoanCalcService\LoanCalcService\code\PeriodBusiness\ActualPaymentAllocation.cs = ..\..\..\Desktop\NCTEK\LoanCalcService\LoanCalcService\code\PeriodBusiness\ActualPaymentAllocation.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RollingBusiness", "RollingBusiness", "{7DCFF556-FE42-4926-92C1-55BB4890DA94}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\NCTEK\LoanCalcService\LoanCalcService\code\RollingBusiness\ActualPaymentAllocation.cs = ..\..\..\Desktop\NCTEK\LoanCalcService\LoanCalcService\code\RollingBusiness\ActualPaymentAllocation.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoanCalculator.Services", "LoanCalculator.Services\LoanCalculator.Services.csproj", "{F59D9817-75C5-4DC7-B124-CF4BE374B211}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoanCalculator.Persistence", "LoanCalculator.Persistence\LoanCalculator.Persistence.csproj", "{2BF98CB4-FCC0-4974-9126-609B2002984E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoanCalculator.Presentation", "LoanCalculator.Presentation\LoanCalculator.Presentation.csproj", "{093E03EC-AFEE-4E59-ACBC-43336691E441}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoanCalculator.Api", "LoanCalculator.Api\LoanCalculator.Api.csproj", "{EEEC629B-1BB2-440B-818E-87FC8C89BE12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F59D9817-75C5-4DC7-B124-CF4BE374B211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F59D9817-75C5-4DC7-B124-CF4BE374B211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F59D9817-75C5-4DC7-B124-CF4BE374B211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F59D9817-75C5-4DC7-B124-CF4BE374B211}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BF98CB4-FCC0-4974-9126-609B2002984E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BF98CB4-FCC0-4974-9126-609B2002984E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BF98CB4-FCC0-4974-9126-609B2002984E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BF98CB4-FCC0-4974-9126-609B2002984E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{093E03EC-AFEE-4E59-ACBC-43336691E441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{093E03EC-AFEE-4E59-ACBC-43336691E441}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{093E03EC-AFEE-4E59-ACBC-43336691E441}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{093E03EC-AFEE-4E59-ACBC-43336691E441}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEEC629B-1BB2-440B-818E-87FC8C89BE12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEEC629B-1BB2-440B-818E-87FC8C89BE12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEEC629B-1BB2-440B-818E-87FC8C89BE12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEEC629B-1BB2-440B-818E-87FC8C89BE12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{746B3B13-C999-4385-9651-EC26C496F282} = {1FBF471A-D72C-489E-B579-F76AD56A4974}
+		{6CE14EF9-A2DF-479E-9A58-47B13EAA3FF9} = {1FBF471A-D72C-489E-B579-F76AD56A4974}
+		{7DCFF556-FE42-4926-92C1-55BB4890DA94} = {1FBF471A-D72C-489E-B579-F76AD56A4974}
+		{F59D9817-75C5-4DC7-B124-CF4BE374B211} = {1FBF471A-D72C-489E-B579-F76AD56A4974}
+		{2BF98CB4-FCC0-4974-9126-609B2002984E} = {850C0D30-1010-4FFC-9891-DC55C3293F25}
+		{093E03EC-AFEE-4E59-ACBC-43336691E441} = {9C56CBEC-5FCC-46E9-8450-9F5536ECEB4E}
+		{EEEC629B-1BB2-440B-818E-87FC8C89BE12} = {1505EA86-A36F-44F7-8824-C04E76D17C73}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A83FACA0-C2AC-4485-AFC1-0F455910A3B9}
+	EndGlobalSection
+EndGlobal
